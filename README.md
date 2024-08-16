@@ -1,4 +1,4 @@
-# Product Analysis of Eureka Math Educational Curriculum
+# Boosting Customer Retention: Product Analysis of Eureka Math Educational Curriculum
 To boost customer retention for Ed-Tech company [Great Minds](https://greatminds.org/eurekamathsquared#eureka-math-builds-knowledge), we analyze product reviews for two of their math curriculum products: "Eureka Math" and "Eureka Math<sup>2</sup>".
 By conducting sentiment analysis of product reviews from educators, we can identify the success of Eureka products and areas for improvement.
 
