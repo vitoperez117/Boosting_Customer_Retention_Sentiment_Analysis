@@ -3,8 +3,9 @@ To boost customer retention for Ed-Tech company [Great Minds](https://greatminds
 By conducting sentiment analysis of product reviews from educators, we can identify the success of Eureka products and areas for improvement.
 
 ### Findings
-##### Success Metrics: **Great Minds** defines 3 Key Qualities for Eureka products: Accessible, Coherent, Engaging. These qualities will be the success metrics against which product reviews are measured to identify gaps between current performance and ideal performance. 
-##### Sentiment
+Success Metrics: **Great Minds** defines 3 Key Qualities for Eureka products: Accessible, Coherent, Engaging. These qualities will be the success metrics against which product reviews are measured to identify gaps between current performance and ideal performance. 
+
+Sentiment:
 ### Recommendations
 ### Method
 1. **Gather Product Reviews**: In lieu of publicy available customer reviews from **Great Minds**,
