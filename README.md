@@ -17,11 +17,11 @@ Boost customer retention for [Great Minds](https://greatminds.org/eurekamathsqua
    - Neutral: 27
    - Negative: 9
  
-<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/'Sentiment%20Review%20of%20All%20Entries%20Explicitly%20Mentioning%20'Eureka'%20(Pie).png"
-     alt="Sentiment Breakdown (All Reviews)" width=400 align="right"
-     style="in-line: left; margin-right: 10px;" /> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/Total%20Sentiment%20Reviews%20(Pie).png"
-     alt="Sentiment Breakdown (All Reviews)" width=400 align="left"
-     style="in-line: left; margin-right: 10px;" /> 
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/'Sentiment%20Review%20of%20All%20Entries%20Explicitly%20Mentioning%20'Eureka'%20(Pie).png" alt="Sentiment Breakdown (All Reviews)" width=400 align="right"/> 
+
+ <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/Total%20Sentiment%20Reviews%20(Pie).png"
+     alt="Sentiment Breakdown (All Reviews)" width=400 align="left"/> 
+    
 
 
 
