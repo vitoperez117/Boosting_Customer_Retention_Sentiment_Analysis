@@ -4,7 +4,7 @@ Boosting customer retention for [Great Minds](https://greatminds.org/eurekamaths
 **Great Minds** defines 3 Key Qualities of _Eureka_ products: **Accessible, Coherent, Engaging**. Product reviews were assessed based on these qualities in order to identify gaps between current performance and ideal performance. 
 
 ### Sentiment Analysis of Reviews 
-Each review has a `Positive`, `Neutral`, `Negative`, and `Compound` score. 
+Sentiment Analysis of product reviews was conducted using [NLTK's](https://www.nltk.org/) [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment) to. Each product review has a `Positive`, `Neutral`, `Negative`, and `Compound` score. 
 - The `Compound` score is a measure of overall sentiment expressed by a review which provides a high-level view of how users feel about a product. See [VADERsentiment](https://github.com/cjhutto/vaderSentiment) for more information about scoring.
 
 - The `Positive`, `Neutral`, and `Negative` scores represent the ratios of positive, neutral, and negative sentiment within a review. This provides more nuance since most reviews are a mixture of sentiments.
