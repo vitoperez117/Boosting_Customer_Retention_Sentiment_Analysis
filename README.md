@@ -10,20 +10,43 @@ Boost customer retention for [Great Minds](https://greatminds.org/eurekamathsqua
    - Positive: 876 (58.8%)
    - Neutral: 344 (23.1%)
    - Negative: 270 (18.1%)
-    
+   - Generally
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/Total%20Sentiment%20Reviews%20(Pie).png"
+     alt="Sentiment Breakdown (All Reviews)" width=400 align=left/>
+     
 
 - Total Reviews _explicitly mentioning Eureka_: 140
    - Positive: 104 (74.3%)
    - Neutral: 27 (6.4%)
    - Negative: 9 (19.3%)
  
-<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/Total%20Sentiment%20Reviews%20(Pie).png"
-     alt="Sentiment Breakdown (All Reviews)" width=400 align=left/> 
+
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/'Sentiment%20Review%20of%20All%20Entries%20Explicitly%20Mentioning%20'Eureka'%20(Pie).png" alt="Sentiment Breakdown (All Reviews)" width=400 align=right/> 
 
- 
-    
 
+- Positive Reviews
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20POS%20Score%20Reviews.png" width=300 align=left/> 
+
+- Positive Reviews explicitly mentioning Eureka
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/POS%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 align=right/>
+
+- Neutral Reviews
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/NEU%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 align=left/> 
+
+- Neutral Reviews explicitly mentioning Eureka
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20POS%20Score%20Reviews.png" width=300 align=right/> 
+
+- Negative Reviews
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20NEG%20Score%20Reviews.png" width=300 align=left/> 
+
+- Negative Reviews explicitly mentioning Eureka
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/NEG%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 align=right/> 
+
+- Compound Score
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20COMPOUND%20Score%20Reviews.png" width=300 align=left/> 
+
+- Compound Scores for Reviews explicitly mentioning Eureka
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/COMPOUND%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 align=right/> 
 
 
 
