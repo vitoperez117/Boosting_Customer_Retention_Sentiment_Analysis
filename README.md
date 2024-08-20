@@ -46,33 +46,42 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20NEG%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/NEG%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
 
-
 ### Recommendations
-**MAIN ISSUES**
-1. Curriculum Rigor
-   * Difficulty is not appropriate for the prescribed grade level
-2. Improper Implementation / Insufficient Support
-   * Issues transitioning students into content for the next grade level
-3. Pedagogical Challenges / Materials & Resources
-   * Teaching techniques are too confusing
-   * Pacing is too fast
-   * Materials are not engaging. Lack of manipulatives.
+1. Collect further feedback from educators to better understand how the main issues outlined below manifest in their classrooms.
+2. Investigate reviews with Positive `Compound` scores to find issues that concur with Negative reviews.
+
+       **Main Issues**
+       1. Curriculum Rigor
+          * Difficulty is not appropriate for the prescribed grade level
+       2. Improper Implementation / Insufficient Support
+          * Issues transitioning students into content for the next grade level
+       3. Pedagogical Challenges / Materials & Resources
+          * Teaching techniques are too confusing
+          * Pacing is too fast
+          * Materials are not engaging. Lack of manipulatives.
+  
 ### Method
 1. Gather Product Reviews 
     * In lieu of publicy available customer reviews from **Great Minds**, we can obtain product reviews using [PRAW](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html) to scrape the subreddit page `r/Teachers` for posts, comments, and replies from educators relating to "Eureka".
+    * Collect: Date of entry, author, url to review, review text
 2. Perform Sentiment Analysis 
-    * Pre-processing product reviews using [NLTK](https://www.nltk.org/) prepares them for the [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment) within NLTK to measure customer sentiment.
+    * Pre-process product reviews using [NLTK](https://www.nltk.org/) to prepare them for the [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment) within NLTK to measure customer sentiment.
 3. Visualize Performance 
-    * Visualizing the distribution of sentiment scores using [Matplotlib](https://matplotlib.org/) allows the Product team to get an intuitive sense of customer sentiment.
+    * Visualize the distribution of sentiment scores using [Matplotlib](https://matplotlib.org/) to provide the Product Management team a high-level sense of customer sentiment and a granular picture of the mix of positive and negative sentiments within each review.
 4. Identify Improvement Areas
-    * Isolating negative reviews allows us to identify gaps in product performance to retain existing customers and prevent churn.
+    * Isolating negative reviews allows the Product Management team to identify gaps in product performance to retain existing customers and prevent churn.
 
 
 ### Limits
-1. Sample Size: 1,490 reviews collected from one forum (r/Teachers). Less than 10% of reviews explicitly mentioned "Eureka"
+1. Sample Size
+    * 1,490 reviews collected from one forum (r/Teachers). Less than 10% of reviews explicitly mentioned "Eureka".
 2. User Error vs. Product Deficiency
-3. Demographic Information of Authors Unknown: reviews do not always explicitly indicate their geographic location, school district, or local context which may affect the implementation of Eureka curricula.
-4. Uninformative comments: some reviews reflect the educator's sentiment about the product, which are useful. However, some do not identify features they find unsatisfactory.
+    * User error could be attributable to the educators or their school administration specifically regarding product rollout, implementation in earlier grade levels, and preparation of earlier grade levels to ensure foundational skills.
+3. Demographic Information of Authors Unknown
+    * Reviews do not always explicitly indicate their geographic location, school district, or local context which may affect the implementation of Eureka curricula.
+4. Uninformative comments
+    * Some reviews reflect the educator's sentiment about the product, which are useful. However, some do not identify features they find unsatisfactory.
+
 ### Next Steps
 1. Train and test model on reviews not explicitly mentioning "Eureka".
 2. Identify potential areas of improvement within "Positive" reviews.
