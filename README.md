@@ -7,7 +7,7 @@ Boost customer retention for [Great Minds](https://greatminds.org/eurekamathsqua
 
 #### Sentiment
 - Total Reviews (posts, comments, and replies) Collected: 1490
-- Positive: 876
+   - Positive: 876
 - Neutral: 344
 - Negative: 270
 
