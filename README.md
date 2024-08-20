@@ -5,8 +5,8 @@ Boost customer retention for [Great Minds](https://greatminds.org/eurekamathsqua
 ### Findings
 **Great Minds** defines 3 Key Qualities of Eureka products: **Accessible, Coherent, Engaging**. Product reviews were assessed based on these qualities in order to identify gaps between current performance and ideal performance. 
 
-#### Sentiment
-Sentiment Analysis of reviews 
+#### Sentiment Analysis of Reviews 
+Reviews generally indicate positive reception from educators and parents. This study closely examines the negative reviews t Upon further inspection, neutral reviews are inquiries rather than expressions of sentiment
 | | All Reviews | Reviews explicitly mentioning "Eureka" | 
 | ----- | ----- | ----- |
 | Total | 1490 | 140 |  
@@ -17,8 +17,8 @@ Sentiment Analysis of reviews
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/Total%20Sentiment%20Reviews%20(Pie).png" alt="Sentiment Breakdown (All Reviews)" width=375 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/'Sentiment%20Review%20of%20All%20Entries%20Explicitly%20Mentioning%20'Eureka'%20(Pie).png" alt="Sentiment Breakdown (All Reviews)" width=375 float=right/> 
 
 
-Positive Reviews &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Positive Reviews explicitly mentioning Eureka
-
+Positive Reviews
+The vast majority of reviews indicate positive reception although some mention slightly unsatisfactory features that concur with issues mentioned in Negative reviews.
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20POS%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/POS%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/>
 
 Neutral Reviews &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Neutral Reviews explicitly mentioning Eureka
