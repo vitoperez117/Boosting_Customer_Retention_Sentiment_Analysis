@@ -26,7 +26,7 @@ Based on `Compound` scores, reviews from educators and parents generally indicat
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20COMPOUND%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/COMPOUND%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
 
-Both the `Positive` sentiment and `Negative` sentiment scores are weak. In other words, users moderately like the product but have mild to moderate complaints. To better understand potential causes of churn with existing customers, this study closely examines the reviews with a `Negative` Compound Score to identify the main problems with the product. 
+Across all reviews, both the `Positive` sentiment and `Negative` sentiment scores are relatively weak. This indicates that users moderately like the product but have mild to moderate complaints. To better understand potential causes of churn with existing customers, this study closely examines the reviews with a `Negative` Compound Score to identify the main problems with the product. 
 
 **Positive Sentiment**
 
@@ -46,19 +46,19 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20NEG%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/NEG%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
 
+### Main Issues
+1. Curriculum Rigor
+   * Difficulty is not appropriate for the prescribed grade level
+2. Improper Implementation / Insufficient Support
+   * Issues transitioning students into content for the next grade level
+3. Pedagogical Challenges / Materials & Resources
+   * Teaching techniques are too confusing
+   * Pacing is too fast
+   * Materials are not engaging. Lack of manipulatives.
+  
 ### Recommendations
 1. Collect further feedback from educators to better understand how the main issues outlined below manifest in their classrooms.
 2. Investigate reviews with Positive `Compound` scores to find issues that concur with Negative reviews.
-
-  **Main Issues**
-  1. Curriculum Rigor
-     * Difficulty is not appropriate for the prescribed grade level
-  2. Improper Implementation / Insufficient Support
-     * Issues transitioning students into content for the next grade level
-  3. Pedagogical Challenges / Materials & Resources
-     * Teaching techniques are too confusing
-     * Pacing is too fast
-     * Materials are not engaging. Lack of manipulatives.
   
 ### Method
 1. Gather Product Reviews 
