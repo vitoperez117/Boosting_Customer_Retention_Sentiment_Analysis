@@ -6,21 +6,24 @@ Boost customer retention for [Great Minds](https://greatminds.org/eurekamathsqua
 **Great Minds** defines 3 Key Qualities of Eureka products: **Accessible, Coherent, Engaging**. Product reviews were assessed based on these qualities in order to identify gaps between current performance and ideal performance. 
 
 #### Sentiment
-- Total Reviews Collected (posts, comments, and replies): 1490  <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/Total%20Sentiment%20Reviews%20(Pie).png"
-     alt="Sentiment Breakdown (All Reviews)" width=400 align="right"
-     style="float: left; margin-right: 10px;" />
+- Total Reviews Collected (posts, comments, and replies): 1490  
    - Positive: 876 (58.8%)
    - Neutral: 344 (23.1%)
    - Negative: 270 (18.1%)
     
 
-- Total Reviews (_explicitly mentioning Eureka_): 140
-<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/'Sentiment%20Review%20of%20All%20Entries%20Explicitly%20Mentioning%20'Eureka'%20(Pie).png"
-     alt="Sentiment Breakdown (All Reviews)" width=400 align="right"
-     style="float: left; margin-right: 10px;" />
+- Total Reviews _explicitly mentioning Eureka_: 140
    - Positive: 104
    - Neutral: 27
    - Negative: 9
+ 
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/Total%20Sentiment%20Reviews%20(Pie).png"
+     alt="Sentiment Breakdown (All Reviews)" width=400 align="right"
+     style="float: left; margin-right: 10px;" />
+     
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/'Sentiment%20Review%20of%20All%20Entries%20Explicitly%20Mentioning%20'Eureka'%20(Pie).png"
+     alt="Sentiment Breakdown (All Reviews)" width=400 align="left"
+     style="float: left; margin-right: 10px;" />
 
 #### Main Issues
 1. Curriculum Rigor
