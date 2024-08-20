@@ -6,15 +6,15 @@ Boost customer retention for [Great Minds](https://greatminds.org/eurekamathsqua
 **Great Minds** defines 3 Key Qualities of Eureka products: **Accessible, Coherent, Engaging**. Product reviews were assessed based on these qualities in order to identify gaps between current performance and ideal performance. 
 
 #### Sentiment
-- Total Reviews (posts, comments, and replies) Collected: 1490
+- Total Reviews Collected (posts, comments, and replies): 1490 
    - Positive: 876
-- Neutral: 344
-- Negative: 270
+   - Neutral: 344
+   - Negative: 270
 
 - Total Reviews (_explicitly mentioning Eureka_): 140
-- Positive: 104
-- Neutral: 27
-- Negative: 9
+   - Positive: 104
+   - Neutral: 27
+   - Negative: 9
 
 #### Main Issues
 1. Curriculum Rigor
