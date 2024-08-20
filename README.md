@@ -19,7 +19,7 @@ Reviews generally indicate positive reception from educators and parents. This s
 
 **Positive Reviews**
 
-Although the vast majority of reviews indicate are Positive, the scores are weak. This could potentially signal future churn if another product better fits their needs. Some reviews also mention slightly unsatisfactory features that concur with issues mentioned in Negative reviews. 
+Although the vast majority of reviews indicate are Positive, the scores are mostly range from moderate to weak. This could potentially signal future churn if another product better fits their needs. Some reviews also mention slightly unsatisfactory features that concur with issues mentioned in Negative reviews. 
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20POS%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/POS%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/>
 
