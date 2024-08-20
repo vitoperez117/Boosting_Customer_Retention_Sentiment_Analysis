@@ -1,5 +1,5 @@
 # Boosting Customer Retention: Product Analysis of Eureka Math Educational Curriculum
-Boosting customer retention for [Great Minds](https://greatminds.org/eurekamathsquared#eureka-math-builds-knowledge), an ed-tech company, by identifying issues that lead to churn. Through sentiment analysis of product reviews for two of their math curriculum products: _Eureka Math_ and _Eureka Math<sup>2</sup>_, we can quantify the success of _Eureka_ products and identify areas for improvement. 
+Boosting customer retention for [Great Minds](https://greatminds.org/eurekamathsquared#eureka-math-builds-knowledge), an ed-tech company, by identifying issues that lead to churn. Through sentiment analysis of product reviews for two of their math curriculum products: _Eureka Math_ and _Eureka Math<sup>2</sup>_, we can quantify the success of _Eureka_ products and identify areas for improvement for the Product Management team.
 
 **Great Minds** defines 3 Key Qualities of _Eureka_ products: **Accessible, Coherent, Engaging**. Product reviews were assessed based on these qualities in order to identify gaps between current performance and ideal performance. 
 
@@ -61,7 +61,7 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
   
 ### Method
 1. Gather Product Reviews 
-    * In lieu of publicy available customer reviews from **Great Minds**, we can obtain product reviews using [PRAW](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html) to scrape the subreddit page `r/Teachers` for posts, comments, and replies from educators relating to "Eureka".
+    * Obtain product reviews using [PRAW](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html) to scrape the subreddit page `r/Teachers` for posts, comments, and replies from educators relating to _Eureka_ in lieu of publicy available customer reviews from **Great Minds**.
     * Collect: Date of entry, author, url to review, review text
 2. Perform Sentiment Analysis 
     * Pre-process product reviews using [NLTK](https://www.nltk.org/) to prepare them for the [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment) within NLTK to measure customer sentiment.
