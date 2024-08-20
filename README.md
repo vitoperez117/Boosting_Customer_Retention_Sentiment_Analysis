@@ -6,18 +6,18 @@ Boost customer retention for [Great Minds](https://greatminds.org/eurekamathsqua
 
 ### Sentiment Analysis of Reviews 
 Each review has a `Positive`, `Neutral`, `Negative`, and `Compound` score. 
-- The `Compound` score is an overall measure of sentiment of a review which provides a high-level view of how users feel about a product. 
+- The `Compound` score is an overall measure of sentiment of a review which provides a high-level view of how users feel about a product. See [VADERsentiment](https://github.com/cjhutto/vaderSentiment) for more information about scoring.
 
 - The `Positive`, `Neutral`, and `Negative` values represent the ratios of positive, neutral, and negative sentiment within a review. This provides more nuance since most reviews are a mixture of sentiments.
 
-- Reviews from educators and parents generally indicate that positive sentiment outweighs negative sentiment. The high levels of neutral This study closely examines the negative reviews and identifies their main problems with the product. 
+- Reviews from educators and parents generally indicate that positive sentiment outweighs negative sentiment. This study closely examines the reviews with a `Negative` Compound Score to identify their main problems with the product. 
 
 | | All Reviews | Reviews explicitly mentioning "Eureka" | 
 | ----- | ----- | ----- |
 | Total | 1490 | 140 |  
-| Positive | 876 (58.8%) | 104 (74.3%) |
-| Neutral | 344 (23.1%) | 27 (6.4%) |
-| Negative | 270 (18.1%) | 9 (19.3%) |
+| Positive Compound Score | 876 (58.8%) | 104 (74.3%) |
+| Neutral Compound Score | 344 (23.1%) | 27 (6.4%) |
+| Negative Compound Score | 270 (18.1%) | 9 (19.3%) |
  
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/Total%20Sentiment%20Reviews%20(Pie).png" alt="Sentiment Breakdown (All Reviews)" width=375 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/'Sentiment%20Review%20of%20All%20Entries%20Explicitly%20Mentioning%20'Eureka'%20(Pie).png" alt="Sentiment Breakdown (All Reviews)" width=375 float=right/> 
 
