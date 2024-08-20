@@ -6,11 +6,12 @@ Boost customer retention for [Great Minds](https://greatminds.org/eurekamathsqua
 
 ### Sentiment Analysis of Reviews 
 Each review has a `Positive`, `Neutral`, `Negative`, and `Compound` score. 
-- The `Compound` score is an overall measure of sentiment of a review which provides a high-level view of how users feel about a product. See [VADERsentiment](https://github.com/cjhutto/vaderSentiment) for more information about scoring.
+- The `Compound` score is a measure of overall sentiment expressed by a review which provides a high-level view of how users feel about a product. See [VADERsentiment](https://github.com/cjhutto/vaderSentiment) for more information about scoring.
 
-- The `Positive`, `Neutral`, and `Negative` values represent the ratios of positive, neutral, and negative sentiment within a review. This provides more nuance since most reviews are a mixture of sentiments.
+- The `Positive`, `Neutral`, and `Negative` scores represent the ratios of positive, neutral, and negative sentiment within a review. This provides more nuance since most reviews are a mixture of sentiments.
 
-- Reviews from educators and parents generally indicate that positive sentiment outweighs negative sentiment. This study closely examines the reviews with a `Negative` Compound Score to identify their main problems with the product. 
+### Findings
+Based on `Compound` scores, reviews from educators and parents generally indicate that positive sentiments outweigh negative sentiments. 
 
 | | All Reviews | Reviews explicitly mentioning "Eureka" | 
 | ----- | ----- | ----- |
@@ -21,39 +22,30 @@ Each review has a `Positive`, `Neutral`, `Negative`, and `Compound` score.
  
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/Total%20Sentiment%20Reviews%20(Pie).png" alt="Sentiment Breakdown (All Reviews)" width=375 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/'Sentiment%20Review%20of%20All%20Entries%20Explicitly%20Mentioning%20'Eureka'%20(Pie).png" alt="Sentiment Breakdown (All Reviews)" width=375 float=right/> 
 
+**Compound Scores Distribution** 
+
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20COMPOUND%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/COMPOUND%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
+
+Both the `Positive` sentiment and `Negative` sentiment scores are weak. In other words, users moderately like the product but have mild to moderate complaints. To better understand potential causes of churn with existing customers, this study closely examines the reviews with a `Negative` Compound Score to identify the main problems with the product. 
 
 **Positive Sentiment**
 
-Although the vast majority of reviews indicate are Positive, the scores are mostly range from moderate to weak. This could potentially signal future churn if another product better fits their needs. Some reviews also mention slightly unsatisfactory features that concur with issues mentioned in Negative reviews. 
+Although the vast majority of reviews lean `Positive`, the `Positive` scores mostly range from moderate to weak. This could potentially signal future churn if another product better fits their needs. Some Positive reviews based on `Compound` score also mention slightly unsatisfactory features that concur with issues mentioned in Negative reviews. 
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20POS%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/POS%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/>
 
 **Neutral Sentiment** 
 
-Reviews showing Neutral sentiment range from moderate to strong. Similar to weak Positive reviews, moderate to strong neutral sentiment possibly indicates lack of certainty with the product which could eventually lead to churn.
+Reviews showing strong Neutral scores possibly indicate lack of certainty with the product which could eventually lead to churn.
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20NEU%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/NEU%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
 
 **Negative Sentiment**
 
-The majority of Negative reviews have a weak score. Users with weak Negative sentiment identify unsatisfactory product issues but do not reject the product in as a whole. As a result, these users might be retained if the company gathers further feedback. Main issues from Negative reviews that explicitly about "Eureka" have been extracted below.
+The majority of `Negative` sentiments found across reviews are weak. Reviews with weak `Negative` sentiment identify unsatisfactory product issues but rarely reject the product as a whole. As a result, these users might be retained if the company gathers further feedback and resolve overarching issues. Main issues from Negative reviews that explicitly about "Eureka" have been extracted below.
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20NEG%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/NEG%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
 
-**Compound Score** 
-
-Compound scores are a separate measurement that 
-
-<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20COMPOUND%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/COMPOUND%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
-
-
-
-
-
-
-
-
-     
 
 #### Main Issues
 1. Curriculum Rigor
