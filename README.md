@@ -83,4 +83,4 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
 
 ### Next Steps
 1. Train and test sklearn model on reviews not explicitly mentioning _Eureka_.
-2. Identify potential areas of improvement within reviews that have a Positive `Compound` score.
+2. Identify potential areas of improvement within reviews that have Positive and Neutral `Compound` scores.
