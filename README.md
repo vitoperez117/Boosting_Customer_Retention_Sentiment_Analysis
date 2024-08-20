@@ -2,15 +2,15 @@
 ### Objective
 Boost customer retention for [Great Minds](https://greatminds.org/eurekamathsquared#eureka-math-builds-knowledge), an ed-tech company, by fixing issues that lead to churn. By conducting sentiment analysis of product reviews for two of their math curriculum products: "Eureka Math" and "Eureka Math<sup>2</sup>", we can quantify the success of Eureka products and identify areas for improvement. 
 
-### Findings
 **Great Minds** defines 3 Key Qualities of Eureka products: **Accessible, Coherent, Engaging**. Product reviews were assessed based on these qualities in order to identify gaps between current performance and ideal performance. 
 
-#### Sentiment Analysis of Reviews 
-Reviews generally indicate positive reception from educators and parents. This study closely examines the negative reviews and identifies their main problems with the product. Each review has a Positive, Neutral, Negative, and Compound score. 
+### Sentiment Analysis of Reviews 
+Each review has a `Positive`, `Neutral`, `Negative`, and `Compound` score. 
+- The `Compound` score is an overall measure of sentiment of a review which provides a high-level view of how users feel about a product. 
 
-The Compound score is an overall measure of sentiment of a review which provides a high-level view of how users feel about a product. 
+- The `Positive`, `Neutral`, and `Negative` values represent the ratios of positive, neutral, and negative sentiment within a review. This provides more nuance since most reviews are a mixture of sentiments.
 
-The Positive, Neutral, and Negative values represent the ratios of positive, neutral, and negative sentiment within a review. This provides more nuance since most reviews are a mixture of sentiments. 
+- Reviews from educators and parents generally indicate that positive sentiment outweighs negative sentiment. The high levels of neutral This study closely examines the negative reviews and identifies their main problems with the product. 
 
 | | All Reviews | Reviews explicitly mentioning "Eureka" | 
 | ----- | ----- | ----- |
