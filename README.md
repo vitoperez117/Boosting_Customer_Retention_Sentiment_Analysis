@@ -50,15 +50,15 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
 1. Collect further feedback from educators to better understand how the main issues outlined below manifest in their classrooms.
 2. Investigate reviews with Positive `Compound` scores to find issues that concur with Negative reviews.
 
-       **Main Issues**
-       1. Curriculum Rigor
-          * Difficulty is not appropriate for the prescribed grade level
-       2. Improper Implementation / Insufficient Support
-          * Issues transitioning students into content for the next grade level
-       3. Pedagogical Challenges / Materials & Resources
-          * Teaching techniques are too confusing
-          * Pacing is too fast
-          * Materials are not engaging. Lack of manipulatives.
+      **Main Issues**
+      1. Curriculum Rigor
+         * Difficulty is not appropriate for the prescribed grade level
+      2. Improper Implementation / Insufficient Support
+         * Issues transitioning students into content for the next grade level
+      3. Pedagogical Challenges / Materials & Resources
+         * Teaching techniques are too confusing
+         * Pacing is too fast
+         * Materials are not engaging. Lack of manipulatives.
   
 ### Method
 1. Gather Product Reviews 
