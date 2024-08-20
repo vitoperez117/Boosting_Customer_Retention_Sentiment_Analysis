@@ -78,9 +78,9 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
     * User error could be attributable to the educators or their school administration specifically regarding product rollout, implementation in earlier grade levels, and preparation of earlier grade levels to ensure foundational skills.
 3. Demographic Information of Authors Unknown
     * Reviews do not always explicitly indicate their geographic location, school district, or local context which may affect the implementation of Eureka curricula.
-4. Uninformative comments
+4. Uninformative Comments
     * Some reviews reflect the educator's sentiment about the product, which are useful. However, some do not identify features they find unsatisfactory.
 
 ### Next Steps
-1. Train and test model on reviews not explicitly mentioning "Eureka".
-2. Identify potential areas of improvement within "Positive" reviews.
+1. Train and test sklearn model on reviews not explicitly mentioning _Eureka_.
+2. Identify potential areas of improvement within reviews that have a Positive `Compound` score.
