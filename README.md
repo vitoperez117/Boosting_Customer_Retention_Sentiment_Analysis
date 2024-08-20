@@ -47,7 +47,8 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20NEG%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/NEG%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
 
 
-#### Main Issues
+### Recommendations
+**MAIN ISSUES**
 1. Curriculum Rigor
    * Difficulty is not appropriate for the prescribed grade level
 2. Improper Implementation / Insufficient Support
@@ -56,12 +57,9 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
    * Teaching techniques are too confusing
    * Pacing is too fast
    * Materials are not engaging. Lack of manipulatives.
-
-
-### Recommendations
 ### Method
 1. Gather Product Reviews 
-    * In lieu of publicy available customer reviews from **Great Minds**, we can obtain product reviews using [PRAW](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html) to scrape the subreddit page **r/Teachers** for posts, comments, and replies from educators relating to "Eureka".
+    * In lieu of publicy available customer reviews from **Great Minds**, we can obtain product reviews using [PRAW](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html) to scrape the subreddit page `r/Teachers` for posts, comments, and replies from educators relating to "Eureka".
 2. Perform Sentiment Analysis 
     * Pre-processing product reviews using [NLTK](https://www.nltk.org/) prepares them for the [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment) within NLTK to measure customer sentiment.
 3. Visualize Performance 
