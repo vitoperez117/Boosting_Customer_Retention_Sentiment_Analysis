@@ -25,6 +25,8 @@ Boost customer retention for [Great Minds](https://greatminds.org/eurekamathsqua
      alt="Sentiment Breakdown (All Reviews)" width=400 align="left"
      style="float: left; margin-right: 10px;" />
 
+     
+
 #### Main Issues
 1. Curriculum Rigor
   * Difficulty is not appropriate for the prescribed grade level
