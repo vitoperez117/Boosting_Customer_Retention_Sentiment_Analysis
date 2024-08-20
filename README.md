@@ -15,6 +15,9 @@ Boost customer retention for [Great Minds](https://greatminds.org/eurekamathsqua
     
 
 - Total Reviews (_explicitly mentioning Eureka_): 140
+<img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/'Sentiment%20Review%20of%20All%20Entries%20Explicitly%20Mentioning%20'Eureka'%20(Pie).png"
+     alt="Sentiment Breakdown (All Reviews)" width=500 align="right"
+     style="float: left; margin-right: 10px;" />
    - Positive: 104
    - Neutral: 27
    - Negative: 9
