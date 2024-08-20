@@ -21,7 +21,7 @@ Boost customer retention for [Great Minds](https://greatminds.org/eurekamathsqua
      alt="Sentiment Breakdown (All Reviews)" width=400 align="right"
      style="in-line: left; margin-right: 10px;" /> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/Total%20Sentiment%20Reviews%20(Pie).png"
      alt="Sentiment Breakdown (All Reviews)" width=400 align="left"
-     style="float: left; margin-right: 10px;" /> 
+     style="in-line: left; margin-right: 10px;" /> 
 
 
 
