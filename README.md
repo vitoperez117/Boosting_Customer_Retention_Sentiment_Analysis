@@ -12,7 +12,7 @@ Sentiment Analysis of product reviews was conducted using [NLTK's](https://www.n
 - The `Positive`, `Neutral`, and `Negative` scores represent the ratios of positive, neutral, and negative sentiment within a review. This provides more nuance since most reviews are a mixture of sentiments.
 
 ### Findings
-As of August 21, 2024, there were a total of 1,485 reviews (posts, comments, and replies) collected from the subreddit [r/Teachers](https://www.reddit.com/r/Teachers/?rdt=47238). The earliest review was from September 21, 2015 and the latest was from August 14, 2024. Based on `Compound` scores, reviews from educators and parents generally indicate that positive sentiments outweigh negative sentiments. 
+As of August 20, 2024, there were a total of 1,490 reviews (posts, comments, and replies) collected from the subreddit [r/Teachers](https://www.reddit.com/r/Teachers/?rdt=47238). The earliest review was from September 21, 2015 and the latest was from August 14, 2024. Based on `Compound` scores, reviews from educators and parents generally indicate that positive sentiments outweigh negative sentiments. 
 
 | | All Reviews | Reviews explicitly mentioning "Eureka" | 
 | ----- | ----- | ----- |
