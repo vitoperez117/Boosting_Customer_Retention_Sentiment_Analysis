@@ -1,10 +1,10 @@
 # Boosting Customer Retention: Product Analysis of Eureka Math Educational Curriculum
-Boosting customer retention for [Great Minds](https://greatminds.org/eurekamathsquared#eureka-math-builds-knowledge), an ed-tech company, by identifying issues that lead to churn. Through sentiment analysis of product reviews for two of their math curriculum products: _Eureka Math_ and _Eureka Math<sup>2</sup>_, we can quantify the success of _Eureka_ products and identify areas for improvement for the Product Management team.
+Boosting customer retention for [Great Minds](https://greatminds.org/eurekamathsquared#eureka-math-builds-knowledge), an ed-tech company, by identifying issues that lead to churn. Through sentiment analysis of product reviews for two of their math curriculum products, _Eureka Math_ and _Eureka Math<sup>2</sup>_, we can quantify their success and identify areas for improvement for the Product Management team.
 
 _Great Minds_ defines 3 Key Qualities of _Eureka_ products: **Accessible, Coherent, Engaging**. Product reviews were assessed based on these qualities in order to identify gaps between current performance and ideal performance. 
 
-### Sentiment Analysis of Reviews 
-Sentiment Analysis of product reviews was conducted using [NLTK's](https://www.nltk.org/) [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment) to. Each product review has a `Positive`, `Neutral`, `Negative`, and `Compound` score. 
+### Sentiment Analysis
+Sentiment Analysis of product reviews was conducted using [NLTK's](https://www.nltk.org/) [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment). Each product review has a `Positive`, `Neutral`, `Negative`, and `Compound` score. 
 
 
 - The `Compound` score is a measure of overall sentiment expressed by a review which provides a high-level view of how users feel about a product. See [VADERsentiment](https://github.com/cjhutto/vaderSentiment) for more information about scoring.
@@ -23,11 +23,9 @@ As of August 20, 2024, there were a total of 1,490 reviews (posts, comments, and
  
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/Total%20Sentiment%20Reviews%20(Pie).png" alt="Sentiment Breakdown (All Reviews)" width=375 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/'Sentiment%20Review%20of%20All%20Entries%20Explicitly%20Mentioning%20'Eureka'%20(Pie).png" alt="Sentiment Breakdown (All Reviews)" width=375 float=right/> 
 
-**Compound Scores Distribution** 
+The vast majority of reviews contain both `Positive` and `Negative` sentiments, although the `Positive` sentiment is relatively stronger. Across the board, both `Positive` and `Negative` sentiment scores are weak. This indicates that users moderately like the _Eureka_ but have mild to moderate complaints. To better understand potential causes of churn with existing customers, this study closely examines the reviews with a `Negative` Compound Score to identify the main issues with the product which are listed below.
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20COMPOUND%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/COMPOUND%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
-
-The vast majority of reviews contain both `Positive` and `Negative` sentiments, although the `Positive` sentiment is relatively stronger. Across the board, both `Positive` and `Negative` sentiment scores are weak. This indicates that users moderately like the _Eureka_ but have mild to moderate complaints. To better understand potential causes of churn with existing customers, this study closely examines the reviews with a `Negative` Compound Score to identify the main issues with the product which are listed below.
 
 **Positive Sentiment**
 
