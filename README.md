@@ -50,8 +50,8 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
 ### Main Issues
 | Main Issues | Description |
 | ----- | ----- |
-| Curriculum Rigor | Content difficulty is not appropriate for the prescribed grade level |
-| Improper Implementation / Insufficient Support | Issues transitioning students into content for the next grade level |
+| Curriculum Rigor | Content difficulty is not appropriate for the prescribed grade level. |
+| Improper Implementation / Insufficient Support | Issues transitioning students into content for the next grade level. |
 | Pedagogical Challenges / Materials & Resources | Teaching techniques are too confusing. Pacing is too fast. Materials are not engaging. Lack of manipulatives |
   
 ### Recommendations
