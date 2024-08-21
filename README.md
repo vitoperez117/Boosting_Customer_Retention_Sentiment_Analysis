@@ -1,16 +1,18 @@
 # Boosting Customer Retention: Product Analysis of Eureka Math Educational Curriculum
 Boosting customer retention for [Great Minds](https://greatminds.org/eurekamathsquared#eureka-math-builds-knowledge), an ed-tech company, by identifying issues that lead to churn. Through sentiment analysis of product reviews for two of their math curriculum products: _Eureka Math_ and _Eureka Math<sup>2</sup>_, we can quantify the success of _Eureka_ products and identify areas for improvement for the Product Management team.
 
-**Great Minds** defines 3 Key Qualities of _Eureka_ products: **Accessible, Coherent, Engaging**. Product reviews were assessed based on these qualities in order to identify gaps between current performance and ideal performance. 
+_Great Minds_ defines 3 Key Qualities of _Eureka_ products: **Accessible, Coherent, Engaging**. Product reviews were assessed based on these qualities in order to identify gaps between current performance and ideal performance. 
 
 ### Sentiment Analysis of Reviews 
 Sentiment Analysis of product reviews was conducted using [NLTK's](https://www.nltk.org/) [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment) to. Each product review has a `Positive`, `Neutral`, `Negative`, and `Compound` score. 
+
+
 - The `Compound` score is a measure of overall sentiment expressed by a review which provides a high-level view of how users feel about a product. See [VADERsentiment](https://github.com/cjhutto/vaderSentiment) for more information about scoring.
 
 - The `Positive`, `Neutral`, and `Negative` scores represent the ratios of positive, neutral, and negative sentiment within a review. This provides more nuance since most reviews are a mixture of sentiments.
 
 ### Findings
-Based on `Compound` scores, reviews from educators and parents generally indicate that positive sentiments outweigh negative sentiments. 
+As of August 21, 2024, there were a total of 1,485 reviews (posts, comments, and replies) collected from the subreddit [r/Teachers](https://www.reddit.com/r/Teachers/?rdt=47238). The earliest review was from September 21, 2015 and the latest was from August 14, 2024. Based on `Compound` scores, reviews from educators and parents generally indicate that positive sentiments outweigh negative sentiments. 
 
 | | All Reviews | Reviews explicitly mentioning "Eureka" | 
 | ----- | ----- | ----- |
@@ -60,15 +62,17 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
 2. Investigate reviews with Positive `Compound` scores to find issues that concur with Negative reviews.
   
 ### Method
-1. Gather Product Reviews 
+1. Data Collection
     * Obtain product reviews using [PRAW](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html) to scrape the subreddit page `r/Teachers` for posts, comments, and replies from educators relating to _Eureka_ in lieu of publicy available customer reviews from **Great Minds**.
-    * Collect: Date of entry, author, url to review, review text
-2. Perform Sentiment Analysis 
-    * Pre-process product reviews using [NLTK](https://www.nltk.org/) to prepare them for the [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment) within NLTK to measure customer sentiment.
-3. Visualize Performance 
+    * Collect: Date of entry, type of entry (post, comment, reply), author, url to review, text of the review.
+2. Data Cleaning
+    * Pre-process product reviews using [NLTK](https://www.nltk.org/) to prepare them for the [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment) within NLTK to measure customer sentiment. This includes standardization (converting all words to lower case), tokenization (turning each word into an individual token in a set), and lemmatization (reducing a word to a base form, see [lemmatization](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html).
+3. Data Analysis
+    * Perform sentiment analysis to determine the sentiment scores of each pre-processed review.
     * Visualize the distribution of sentiment scores using [Matplotlib](https://matplotlib.org/) to provide the Product Management team a high-level sense of customer sentiment and a granular picture of the mix of positive and negative sentiments within each review.
 4. Identify Improvement Areas
-    * Isolating negative reviews allows the Product Management team to identify gaps in product performance to retain existing customers and prevent churn.
+    * Isolate negative reviews for the Product Management team to identify gaps in product performance to retain existing customers and prevent churn.
+    * Read through negative reviews and identify overarching product issues.
 
 
 ### Limits
