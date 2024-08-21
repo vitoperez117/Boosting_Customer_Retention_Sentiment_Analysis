@@ -56,6 +56,7 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
 ### Recommendations
 1. Collect further feedback from educators to better understand how the main issues outlined below manifest in their classrooms.
 2. Investigate reviews with Positive `Compound` scores to find issues that concur with Negative reviews.
+3. Consult with a sample of educators from school districts of varying resource issues and experiment with pedagogical methods and support services to fill developmental gaps from earlier grade levels.
   
 ### Method
 1. Data Collection
