@@ -28,19 +28,19 @@ The vast majority of reviews contain both `Positive` and `Negative` sentiments, 
 
 
 #### Positive, Neutral, Negative Scores
-##### Positive
+#### Positive
 
 While most reviews lean `Positive`, the `Positive` scores are mostly moderate to weak. This could signal future churn if another product better fits user needs. Some Positive reviews based on `Compound` score also mention slightly unsatisfactory features that concur with issues mentioned in Negative reviews. 
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20POS%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/POS%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/>
 
-**Neutral Sentiment** 
+#### Neutral 
 
 Reviews showing strong Neutral scores possibly indicate lack of certainty with the product which could eventually lead to churn.
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20NEU%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/NEU%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
 
-**Negative Sentiment**
+#### Negative
 
 The majority of `Negative` sentiments found across reviews are weak. Reviews with weak `Negative` sentiment identify unsatisfactory product issues but rarely reject the product as a whole. As a result, these users might be retained if the company gathers further feedback and resolve overarching issues. Main issues from Negative reviews that explicitly about "Eureka" have been extracted below.
 
