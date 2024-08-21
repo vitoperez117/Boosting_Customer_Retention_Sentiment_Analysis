@@ -28,7 +28,7 @@ The vast majority of reviews contain both `Positive` and `Negative` sentiments, 
 
 
 #### Positive, Neutral, Negative Scores
-**Positive Sentiment**
+##### Positive
 
 While most reviews lean `Positive`, the `Positive` scores are mostly moderate to weak. This could signal future churn if another product better fits user needs. Some Positive reviews based on `Compound` score also mention slightly unsatisfactory features that concur with issues mentioned in Negative reviews. 
 
