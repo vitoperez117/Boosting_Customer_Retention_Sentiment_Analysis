@@ -64,12 +64,16 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
 ### Method
 1. Data Collection
     * Obtain product reviews using [PRAW](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html) to scrape the subreddit page `r/Teachers` for posts, comments, and replies from educators relating to _Eureka_ in lieu of publicy available customer reviews from **Great Minds**.
-    * Collect: Date of entry, type of entry (post, comment, reply), author, url to review, text of the review.
+    * Collect: Date of entry, type of entry (post, comment, reply), author, url to review, text of the review. 
 2. Data Cleaning
     * Pre-process product reviews using [NLTK](https://www.nltk.org/) to prepare them for the [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment) within NLTK to measure customer sentiment. This includes standardization (converting all words to lower case), tokenization (turning each word into an individual token in a set), and lemmatization (reducing a word to a base form, see [lemmatization](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html).
 3. Data Analysis
     * Perform sentiment analysis to determine the sentiment scores of each pre-processed review.
+    * Compile master dataframe with all reviews and sentiment scores.
     * Visualize the distribution of sentiment scores using [Matplotlib](https://matplotlib.org/) to provide the Product Management team a high-level sense of customer sentiment and a granular picture of the mix of positive and negative sentiments within each review.
+
+      <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/Main_DF.png" width=250 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/NEG%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/>
+      
 4. Identify Improvement Areas
     * Isolate negative reviews for the Product Management team to identify gaps in product performance to retain existing customers and prevent churn.
     * Read through negative reviews and identify overarching product issues.
