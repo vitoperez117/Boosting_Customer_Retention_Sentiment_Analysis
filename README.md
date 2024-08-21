@@ -25,11 +25,11 @@ Based on `Compound` scores, reviews from educators and parents generally indicat
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20COMPOUND%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/COMPOUND%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
 
-The majority of reviews show that both the `Positive` sentiment and `Negative` sentiment scores are weak although the `Positive` sentiment is relatively stronger. This indicates that users moderately like the _Eureka_ but have mild to moderate complaints. To better understand potential causes of churn with existing customers, this study closely examines the reviews with a `Negative` Compound Score to identify the main problems with the product. 
+The vast majority of reviews contain both `Positive` and `Negative` sentiments, although the `Positive` sentiment is relatively stronger. Across the board, both `Positive` and `Negative` sentiment scores are weak. This indicates that users moderately like the _Eureka_ but have mild to moderate complaints. To better understand potential causes of churn with existing customers, this study closely examines the reviews with a `Negative` Compound Score to identify the main issues with the product which are listed below.
 
 **Positive Sentiment**
 
-Although the vast majority of reviews lean `Positive`, the `Positive` scores mostly range from moderate to weak. This could potentially signal future churn if another product better fits their needs. Some Positive reviews based on `Compound` score also mention slightly unsatisfactory features that concur with issues mentioned in Negative reviews. 
+While most reviews lean `Positive`, the `Positive` scores are mostly moderate to weak. This could signal future churn if another product better fits user needs. Some Positive reviews based on `Compound` score also mention slightly unsatisfactory features that concur with issues mentioned in Negative reviews. 
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20POS%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/POS%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/>
 
@@ -47,7 +47,7 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
 
 ### Main Issues
 1. Curriculum Rigor
-   * Difficulty is not appropriate for the prescribed grade level
+   * Content difficulty is not appropriate for the prescribed grade level
 2. Improper Implementation / Insufficient Support
    * Issues transitioning students into content for the next grade level
 3. Pedagogical Challenges / Materials & Resources
