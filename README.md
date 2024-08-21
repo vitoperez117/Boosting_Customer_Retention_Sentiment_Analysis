@@ -3,15 +3,14 @@ Boosting customer retention for [Great Minds](https://greatminds.org/eurekamaths
 
 _Great Minds_ defines 3 Key Qualities of _Eureka_ products: **Accessible, Coherent, Engaging**. Product reviews were assessed based on these qualities in order to identify gaps between current performance and ideal performance. 
 
-### Sentiment Analysis
+### Findings
 Sentiment Analysis of product reviews was conducted using [NLTK's](https://www.nltk.org/) [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment). Each product review has a `Positive`, `Neutral`, `Negative`, and `Compound` score. 
-
 
 - The `Compound` score is a measure of overall sentiment expressed by a review which provides a high-level view of how users feel about a product. See [VADERsentiment](https://github.com/cjhutto/vaderSentiment) for more information about scoring.
 
 - The `Positive`, `Neutral`, and `Negative` scores represent the ratios of positive, neutral, and negative sentiment within a review. This provides more nuance since most reviews are a mixture of sentiments.
 
-### Findings
+#### Compound Scores
 As of August 20, 2024, there were a total of 1,490 reviews (posts, comments, and replies) collected from the subreddit [r/Teachers](https://www.reddit.com/r/Teachers/?rdt=47238). The earliest review was from September 21, 2015 and the latest was from August 14, 2024. Based on `Compound` scores, reviews from educators and parents generally indicate that positive sentiments outweigh negative sentiments. 
 
 | | All Reviews | Reviews explicitly mentioning "Eureka" | 
@@ -27,6 +26,8 @@ The vast majority of reviews contain both `Positive` and `Negative` sentiments, 
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20COMPOUND%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/COMPOUND%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
 
+
+#### Positive, Neutral, Negative Scores
 **Positive Sentiment**
 
 While most reviews lean `Positive`, the `Positive` scores are mostly moderate to weak. This could signal future churn if another product better fits user needs. Some Positive reviews based on `Compound` score also mention slightly unsatisfactory features that concur with issues mentioned in Negative reviews. 
