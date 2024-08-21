@@ -21,7 +21,7 @@ from wordcloud import WordCloud
 #Initiate Reddit Instance
 reddit = praw.Reddit(
     client_id="z3DgdGeM3hPFNuru2P3FGQ",
-    client_secret="NtBXsZsU0PPq3_mlwtahh3gAk5MWXg",
+    client_secret=client_secret,
     user_agent="r/teacher scraper by u/carlschwabb",
 )
 
