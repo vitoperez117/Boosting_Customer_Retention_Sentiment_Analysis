@@ -72,7 +72,7 @@ The majority of `Negative` sentiments found across reviews are weak. Reviews wit
     * Compile master dataframe with all reviews and sentiment scores.
     * Visualize the distribution of sentiment scores using [Matplotlib](https://matplotlib.org/) to provide the Product Management team a high-level sense of customer sentiment and a granular picture of the mix of positive and negative sentiments within each review.
 
-      <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/Main_DF.png" width=350 float=left/>
+      <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/Main_DF.png" width=500 float=left/>
       
 4. Identify Improvement Areas
     * Isolate negative reviews for the Product Management team to identify gaps in product performance to retain existing customers and prevent churn.
