@@ -1,5 +1,5 @@
 # Boosting Customer Retention: Product Analysis of Eureka Math Educational Curriculum
-Boosting customer retention for [Great Minds](https://greatminds.org/eurekamathsquared#eureka-math-builds-knowledge), an ed-tech company, by identifying issues that lead to churn. Through sentiment analysis of product reviews for two of their math curriculum products, _Eureka Math_ and _Eureka Math<sup>2</sup>_, we can quantify their success and identify areas for improvement for the Product Management team.
+Boosting customer retention for [Great Minds](https://greatminds.org/eurekamathsquared#eureka-math-builds-knowledge), an ed-tech company, by identifying issues that lead to churn. Through sentiment analysis of product reviews for two of their math curriculum products, _Eureka Math_ and _Eureka Math<sup>2</sup>_, the Product Management team can quantify their success and identify areas for improvement.
 
 _Great Minds_ defines 3 Key Qualities of _Eureka_ products: **Accessible, Coherent, Engaging**. Product reviews were assessed based on these qualities in order to identify gaps between current performance and ideal performance. 
 
