@@ -22,12 +22,15 @@ As of August 20, 2024, there were a total of 1,490 reviews (posts, comments, and
  
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/Total%20Sentiment%20Reviews%20(Pie).png" alt="Sentiment Breakdown (All Reviews)" width=375 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/'Sentiment%20Review%20of%20All%20Entries%20Explicitly%20Mentioning%20'Eureka'%20(Pie).png" alt="Sentiment Breakdown (All Reviews)" width=375 float=right/> 
 
-The vast majority of reviews contain both `Positive` and `Negative` sentiments, although the `Positive` sentiment is relatively stronger. Across the board, both `Positive` and `Negative` sentiment scores are weak, as seen below. This indicates that users feel moderately positive about  _Eureka_ but have mild to moderate complaints. To better understand potential causes of churn with existing customers, this study closely examines the reviews with a `Negative` Compound Score to identify the main issues with the product which are listed below.
+Although the vast majority of reviews contain both `Positive` and `Negative` sentiments, the `Positive` sentiment is significantly stronger. The charts below illustrate that overall Positive sentiment substantially outnumbers overall Negative sentiment, both in reviews that explicity mention _Eureka_ and those that do not.
 
 <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/General/All%20COMPOUND%20Score%20Reviews.png" width=300 float=left/> <img src="https://github.com/vitoperez117/Product_Analysis_for_Eureka_Math_Curriculum/blob/main/Assets/COMPOUND%20Entries%20Explicitly%20Mentioning%20'Eureka'.png" width=300 float=right/> 
 
 
 #### Positive, Neutral, Negative Scores
+
+Across the board, both `Positive` and `Negative` sentiment scores are weak, as seen below. This indicates that users feel moderately positive about  _Eureka_ but have mild to moderate complaints. To better understand potential causes of churn with existing customers, this study closely examines the reviews with a `Negative` Compound Score to identify the main issues with the product which are listed below.
+
 #### Positive
 
 While most reviews lean `Positive`, the `Positive` scores are mostly moderate to weak. This could signal future churn if another product better fits user needs. Some Positive reviews based on `Compound` score also mention slightly unsatisfactory features that concur with issues mentioned in Negative reviews. 
