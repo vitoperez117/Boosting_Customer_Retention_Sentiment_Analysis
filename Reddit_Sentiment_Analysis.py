@@ -13,6 +13,11 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
+#Topic Modelling Library
+from gensim import corpora
+from gensim.models import LsiModel
+from gensim.models import LdaModel
+
 
 '''DATA SCRAPING'''
 
