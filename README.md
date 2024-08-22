@@ -6,9 +6,9 @@ _Great Minds_ defines 3 Key Qualities of _Eureka_ products: **Accessible, Cohere
 ### Findings
 Sentiment Analysis of product reviews was conducted using [NLTK's](https://www.nltk.org/) [sentiment intensity analyzer](https://github.com/cjhutto/vaderSentiment). Each product review has a `Positive`, `Neutral`, `Negative`, and `Compound` score. 
 
-- The `Compound` score is a measure of overall sentiment expressed by a review which provides a high-level view of how users feel about a product. See [VADERsentiment](https://github.com/cjhutto/vaderSentiment) for more information about scoring.
+- The `Compound` score is a measure of overall sentiment expressed by a review which provides a high-level view of how users feel about a product. Scores range from -1 to 1 with -1 as the strongest negative sentiment, 1 as the strongest positive sentiment, and scores between -0.05 and 0.05 representing neutral sentiment. See [VADERsentiment](https://github.com/cjhutto/vaderSentiment) for more information about scoring.
 
-- The `Positive`, `Neutral`, and `Negative` scores represent the ratios of positive, neutral, and negative sentiment within a review. This provides more nuance since most reviews are a mixture of sentiments.
+- The `Positive`, `Neutral`, and `Negative` scores represent the ratios of positive, neutral, and negative sentiment within a review. This provides more nuance since most reviews are a mixture of sentiments. Each score ranges from 0 to 1 where 0 is the weakest and 1 is the strongest.
 
 #### Compound Scores
 As of August 20, 2024, there were a total of 1,490 reviews (posts, comments, and replies) collected from the subreddit [r/Teachers](https://www.reddit.com/r/Teachers/?rdt=47238). The earliest review was from September 21, 2015 and the latest was from August 14, 2024. Based on `Compound` scores, reviews from educators and parents generally indicate that positive sentiments outweigh negative sentiments. 
