@@ -76,11 +76,11 @@ def get_reviews (subreddit, keyword):
                                         'url': rrrr.permalink}
                             pcr.append(entry_rrrr)
                             for rrrrr in rrrr.replies:
-                                entry_rrrrr = {'date': rr.created_utc,
-                                            'author': rr.author,
+                                entry_rrrrr = {'date': rrrrr.created_utc,
+                                            'author': rrrrr.author,
                                             'title': 'sub4reply',
-                                            'text': rr.body,
-                                            'url': rr.permalink}
+                                            'text': rrrrr.body,
+                                            'url': rrrrr.permalink}
     return pcr
 
 get_reviews('Teachers', 'eureka')
